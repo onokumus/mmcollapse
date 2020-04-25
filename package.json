@@ -1,0 +1,32 @@
+{
+  "name": "mmcollapse",
+  "version": "0.0.1",
+  "main": "dist/cjs/mmcollapse.js",
+  "module": "dist/modules/mmcollapse.js",
+  "types": "dist/types/mmcollapse.d.ts",
+  "browser": "dist/mmcollapse.js",
+  "unpkg": "dist/mmcollapse.min.js",
+  "jsdelivr": "dist/mmcollapse.min.js",
+  "sass": "scss/mmcollapse.scss",
+  "style": "dist/mmcollapse.css",
+  "repository": "git@github.com:onokumus/mmcollapse.git",
+  "author": "Osman Nuri Okumus <onokumus@gmail.com> (https://onokumus.com/)",
+  "license": "MIT",
+  "files": [
+    "src",
+    "scss",
+    "dist"
+  ],
+  "scripts": {
+    "cjs": "tsc -p tsconfig.json --outDir dist/cjs",
+    "esm": "tsc -p tsconfig.json --outDir dist/modules --declaration --declarationDir dist/types --module es6",
+    "browser": "tsc -p tsconfig.json --outDir dist --module umd --sourceMap",
+    "min": "uglifyjs --compress typeofs=false --mangle --comments \"/^!/\" --source-map \"content=dist/mmcollapse.js.map,includeSources,url=mmcollapse.min.js.map\" --output dist/mmcollapse.min.js dist/mmcollapse.js",
+    "css": "sass scss:dist -s compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5",
+    "typescript": "^3.8.3",
+    "uglify-js": "^3.9.1"
+  }
+}

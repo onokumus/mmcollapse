@@ -1,0 +1,8 @@
+/*!
+* mmcollapse - v0.0.1
+* another collapse plugin
+* https://github.com/onokumus/mmcollapse#readme
+*
+* Made by Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+* Under MIT License
+*/.mm-collapse:not(.mm-show){display:none}.mm-collapsing{position:relative;height:0;overflow:hidden;transition-timing-function:ease;transition-duration:.3s;transition-property:height,visibility}/*# sourceMappingURL=mmcollapse.css.map */

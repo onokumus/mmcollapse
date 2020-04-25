@@ -12,10 +12,90 @@
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
   <link rel="author" href="Osman Nuri Okumus">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="mmcollapse.css">
 </head>
 
 <body>
+  <div class="navbar navbar-dark bg-dark">
+    <div class="container d-flex justify-content-between">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        MMCollapse
+      </a>
+    </div>
+  </div>
 
+  <main role="main">
+    <div class="container">
+      <section class="jumbotron text-center">
+        <h1 class="jumbotron-heading">MMCollapse</h1>
+        <p class="lead text-muted">another collapse plugin</p>
+        <p>
+          <a href="https://github.com/onokumus/mmcollapse/blob/master/README.md">Getting Started</a>
+        </p>
+      </section>
+
+      <h2>Examples</h2>
+      <div class="row">
+        <div class="col-md-4 my-3">
+          <button class="btn btn-primary btn-mc1">SHOW</button>
+          <div class="collabsibleElement1 mm-collapse p-3 my-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
+            doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
+            Adipisci, quasi.
+          </div>
+        </div>
+        <div class="col-md-4 my-3">
+          <button class="btn btn-success btn-mc2">HIDE</button>
+          <div class="collabsibleElement2 mm-collapse mm-show p-3 my-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
+            doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
+            Adipisci, quasi.
+          </div>
+        </div>
+        <div class="col-md-4 my-3">
+          <button class="btn btn-warning btn-mc3">TOGGLE</button>
+          <div class="collabsibleElement3 mm-collapse p-3 my-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
+            doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
+            Adipisci, quasi.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </main>
+  <script src="mmcollapse.js"></script>
+
+  <script>
+
+    const collabsibleElement1 = document.querySelector('.collabsibleElement1');
+    const collabsibleElement2 = document.querySelector('.collabsibleElement2');
+    const collabsibleElement3 = document.querySelector('.collabsibleElement3');
+
+    const mc1 = new MMCollapse(collabsibleElement1);
+    const mc2 = new MMCollapse(collabsibleElement2);
+    const mc3 = new MMCollapse(collabsibleElement3);
+
+
+    const btnmc1 = document.querySelector('.btn-mc1');
+    const btnmc2 = document.querySelector('.btn-mc2');
+    const btnmc3 = document.querySelector('.btn-mc3');
+
+    btnmc1.addEventListener('click', e=>{
+      mc1.show();
+    });
+
+    btnmc2.addEventListener('click', e=>{
+      mc2.hide();
+    });
+
+    btnmc3.addEventListener('click', e=>{
+      mc3.toggle();
+    });
+
+  </script>
 </body>
 
 </html>
