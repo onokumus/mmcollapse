@@ -20,9 +20,9 @@
   "scripts": {
     "cjs": "tsc -p tsconfig.json --outDir dist/cjs",
     "esm": "tsc -p tsconfig.json --outDir dist/modules --declaration --declarationDir dist/types --module es6",
-    "browser": "tsc -p tsconfig.json --outDir dist --module umd --sourceMap",
+    "browser": "tsc -p tsconfig.json --outDir dist --module umd --sourceMap --inlineSources",
     "min": "uglifyjs --compress typeofs=false --mangle --comments \"/^!/\" --source-map \"content=dist/mmcollapse.js.map,includeSources,url=mmcollapse.min.js.map\" --output dist/mmcollapse.min.js dist/mmcollapse.js",
-    "css": "sass scss:dist -s compressed"
+    "css": "sass scss:dist -s compressed --embed-sources"
   },
   "devDependencies": {
     "sass": "^1.26.5",
