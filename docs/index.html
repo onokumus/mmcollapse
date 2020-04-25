@@ -28,38 +28,54 @@
 
   <main role="main">
     <div class="container">
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center my-3">
         <h1 class="jumbotron-heading">MMCollapse</h1>
         <p class="lead text-muted">another collapse plugin</p>
         <p>
-          <a href="https://github.com/onokumus/mmcollapse/blob/master/README.md">Getting Started</a>
+          <a href="https://github.com/onokumus/mmcollapse/blob/master/README.md" target="_blank">Getting Started</a>
         </p>
       </section>
 
       <h2>Examples</h2>
       <div class="row">
         <div class="col-md-4 my-3">
-          <button class="btn btn-primary btn-mc1">SHOW</button>
-          <div class="collabsibleElement1 mm-collapse p-3 my-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
-            doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
-            Adipisci, quasi.
+
+          <div class="card my-3">
+            <div class="card-header d-flex">
+              Card Header <button class="ml-auto btn btn-sm btn-primary btn-mc1">show</button>
+            </div>
+            <div class="card-body collabsibleElement1 mm-collapse">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
+              doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
+              Adipisci, quasi.
+            </div>
           </div>
+          
         </div>
         <div class="col-md-4 my-3">
-          <button class="btn btn-success btn-mc2">HIDE</button>
-          <div class="collabsibleElement2 mm-collapse mm-show p-3 my-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
-            doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
-            Adipisci, quasi.
+
+          <div class="card my-3">
+            <div class="card-header d-flex">
+              Card Header <button class="ml-auto btn btn-sm btn-success btn-mc2">hide</button>
+            </div>
+            <div class="card-body collabsibleElement2 mm-collapse mm-show">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
+              doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
+              Adipisci, quasi.
+            </div>
           </div>
+
         </div>
         <div class="col-md-4 my-3">
-          <button class="btn btn-warning btn-mc3">TOGGLE</button>
-          <div class="collabsibleElement3 mm-collapse p-3 my-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
-            doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
-            Adipisci, quasi.
+          <div class="card my-3">
+            <div class="card-header d-flex">
+              Card Header <button class="ml-auto btn btn-sm btn-warning btn-mc3">toggle</button>
+            </div>
+            <div class="card-body collabsibleElement3 mm-collapse">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error tenetur a debitis vero vel delectus ab
+              doloremque dolores deserunt expedita quas, reiciendis accusamus, iure, neque temporibus sint exercitationem.
+              Adipisci, quasi.
+            </div>
           </div>
         </div>
       </div>

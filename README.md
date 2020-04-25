@@ -16,10 +16,12 @@ Install with [yarn](https://yarnpkg.com):
 $ yarn add mmcollapse
 ```
 ### Download
-[download](https://github.com/onokumus/mmcollapse/archive/master.zip)
+[Download compiled CSS and JS](https://github.com/onokumus/mmcollapse/releases/download/v0.0.1/mmcollapse-0.0.1-dist.zip)
 > required files: "mmcollapse.js" and "mmcollapse.css" in dist folder.
 
-Add project file to mmcollapse
+[Download source](https://github.com/onokumus/mmcollapse/archive/master.zip)
+
+#### Add project file to mmcollapse
 
 ```js
 // import es6 module
@@ -88,6 +90,9 @@ show/hide the collapsibleElement
 ```js
 mc.toggle();
 ```
+
+### Demo
+[demo page](https://onokumus.com/mmcollapse)
 
 ### Author
 **Osman Nuri Okumus**
