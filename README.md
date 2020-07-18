@@ -19,7 +19,7 @@ Install with [yarn](https://yarnpkg.com):
 $ yarn add mmcollapse
 ```
 ### Download
-[Download compiled CSS and JS](https://github.com/onokumus/mmcollapse/releases/download/v0.0.1/mmcollapse-0.0.2-dist.zip)
+[Download compiled CSS and JS](https://github.com/onokumus/mmcollapse/releases/download/v0.0.2/mmcollapse-0.0.2-dist.zip)
 > required files: "mmcollapse.js" and "mmcollapse.css" in dist folder.
 
 [Download source](https://github.com/onokumus/mmcollapse/archive/master.zip)
