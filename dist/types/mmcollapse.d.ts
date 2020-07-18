@@ -1,5 +1,5 @@
 /*!
-* mmcollapse - v0.0.1
+* mmcollapse - v0.0.2
 * another collapse plugin
 * https://github.com/onokumus/mmcollapse#readme
 *
@@ -15,3 +15,4 @@ declare class MMCollapse {
     hide(): void;
 }
 export default MMCollapse;
+//# sourceMappingURL=mmcollapse.d.ts.map

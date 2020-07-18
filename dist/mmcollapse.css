@@ -1,5 +1,5 @@
 /*!
-* mmcollapse - v0.0.1
+* mmcollapse - v0.0.2
 * another collapse plugin
 * https://github.com/onokumus/mmcollapse#readme
 *

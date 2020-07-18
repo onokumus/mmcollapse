@@ -1,0 +1,1 @@
+{"version":3,"file":"mmcollapse.d.ts","sourceRoot":"","sources":["../../src/mmcollapse.ts"],"names":[],"mappings":"AAAA;;;;;;;EAOE;AAEF,cAAM,UAAU;IACd,SAAS,CAAC,IAAI,EAAE,WAAW,CAAC;IAC5B,SAAS,CAAC,eAAe,EAAG,OAAO,CAAC;gBACxB,OAAO,EAAE,OAAO;IAI5B,MAAM;IAQN,IAAI;IA0BJ,IAAI;CAwBL;AAGD,eAAe,UAAU,CAAC"}
