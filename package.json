@@ -10,7 +10,7 @@
   "sass": "scss/mmcollapse.scss",
   "style": "dist/mmcollapse.css",
   "repository": "git@github.com:onokumus/mmcollapse.git",
-  "author": "Osman Nuri Okumus <onokumus@gmail.com> (https://onokumus.com/)",
+  "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://onokumus.com/)",
   "license": "MIT",
   "files": [
     "src",
